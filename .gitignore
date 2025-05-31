@@ -1,6 +1,13 @@
 *
 
+!/resources/
+
 !/resources/announcer
 !/resources/helloworld
 !/resources/itemtracker
 !/resources/teleport
+
+!/resources/announcer/**
+!/resources/helloworld/**
+!/resources/itemtracker/**
+!/resources/teleport/**
