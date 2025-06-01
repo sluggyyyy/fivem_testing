@@ -9,7 +9,7 @@ RegisterCommand('announce', (source, args, rawCommand) => {
         console.log('[Announcer - Server] Usage: announce <your message here>');
 
         if (source !== 0) {
-            TriggerClientEvent('chatMessage', source, '^1[Announcer]', [255, 0 ,0], 'Usage: /announce <message>')
+            TriggerClientEvent('chatMessage', source, '^1[Announcer]', [255, 0, 0], 'Usage: /announce <message>');
         }
     }
 }, false);
